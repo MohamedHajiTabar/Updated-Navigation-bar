@@ -1,0 +1,35 @@
+.titles {
+  align-items: center;
+  display: inline-flex;
+  gap: 10px;
+  padding: 32px;
+  position: relative;
+}
+
+.titles .title {
+  color: #003669;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.titles .thirty {
+  font-size: 30px;
+  white-space: nowrap;
+}
+
+.titles .twenty-two {
+  font-size: 22px;
+}
+
+.titles .sixty-six {
+  font-size: 66px;
+}
+
+.titles .thirty-six {
+  font-size: 36px;
+}

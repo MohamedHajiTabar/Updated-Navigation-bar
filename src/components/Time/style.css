@@ -1,0 +1,76 @@
+.time {
+  align-items: center;
+  display: inline-flex;
+  gap: 4px;
+  position: relative;
+}
+
+.time .clock {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.time .hours {
+  font-family: "SF Pro Display-Medium", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.time .text-wrapper-12 {
+  font-family: "SF Pro Display-Medium", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.time .minutes {
+  font-family: "SF Pro Display-Medium", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.time .location-arrow {
+  height: 11.99px;
+  position: relative;
+  width: 11.99px;
+}
+
+.time .light {
+  color: #000000;
+}
+
+.time .dark {
+  color: #ffffff;
+}
+
+.time .theme-light {
+  color: #000000;
+}
+
+.time .theme-dark {
+  color: #ffffff;
+}
+
+.time .theme-0-light {
+  color: #000000;
+}
+
+.time .theme-0-dark {
+  color: #ffffff;
+}

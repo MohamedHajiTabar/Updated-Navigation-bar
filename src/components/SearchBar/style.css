@@ -1,0 +1,109 @@
+.search-bar {
+  align-items: flex-start;
+  border-radius: 4px 4px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  height: 56px;
+  position: relative;
+  width: 516px;
+}
+
+.search-bar .text-field-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  border-radius: 80px;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  width: 100%;
+}
+
+.search-bar .state-layer-6 {
+  align-items: center;
+  align-self: stretch;
+  border-radius: 4px 4px 0px 0px;
+  display: flex;
+  flex: 0 0 auto;
+  padding: 4px 16px 4px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.search-bar .leading-icon-2 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 48px;
+  justify-content: center;
+  position: relative;
+  width: 48px;
+}
+
+.search-bar .container-3 {
+  align-items: center;
+  border-radius: 100px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.search-bar .icon-33-wrapper {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  padding: 8px;
+  position: relative;
+}
+
+.search-bar .icon-33 {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.search-bar .input-text-wrapper {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  height: 40px;
+  justify-content: center;
+  position: relative;
+}
+
+.search-bar .input-text-2 {
+  align-items: center;
+  background: none;
+  border: none;
+  color: var(--systemlighton-surface);
+  display: inline-flex;
+  flex: 0 0 auto;
+  font-family: var(--body-large-font-family);
+  font-size: var(--body-large-font-size);
+  font-style: var(--body-large-font-style);
+  font-weight: var(--body-large-font-weight);
+  letter-spacing: var(--body-large-letter-spacing);
+  line-height: var(--body-large-line-height);
+  margin-top: -1px;
+  padding: 0;
+  position: relative;
+  white-space: nowrap;
+}
+
+.search-bar .focused-true {
+  border: 2px solid;
+  border-color: #003669;
+}
+
+.search-bar:hover .text-field-2 {
+  background-color: #f6f6f6;
+}

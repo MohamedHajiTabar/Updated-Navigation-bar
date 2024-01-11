@@ -1,0 +1,51 @@
+.status-bar-ios {
+  align-items: center;
+  display: flex;
+  height: 48px;
+  justify-content: space-between;
+  padding: 16px 20px 16px 35px;
+  position: relative;
+  width: 375px;
+}
+
+.status-bar-ios .time-instance {
+  flex: 0 0 auto !important;
+  justify-content: center !important;
+  margin-bottom: -0.5px !important;
+  margin-top: -0.5px !important;
+}
+
+.status-bar-ios .icons {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8.5px;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.status-bar-ios .cellular-signal {
+  height: 10px !important;
+  position: relative !important;
+  width: 18px !important;
+}
+
+.status-bar-ios .wifi-7 {
+  height: 11.62px !important;
+  position: relative !important;
+  width: 16px !important;
+}
+
+.status-bar-ios .battery-1 {
+  height: 12px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.status-bar-ios.theme-1-light {
+  background-color: #ffffff;
+}
+
+.status-bar-ios.theme-1-dark {
+  background-color: #000000;
+}

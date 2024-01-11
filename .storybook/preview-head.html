@@ -1,0 +1,111 @@
+<style>
+  @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+  * {
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+  }
+  html,
+  body {
+    margin: 0px;
+    height: 100%;
+  }
+  /* a blue color as a generic focus style */
+  button:focus-visible {
+    outline: 2px solid #4a90e2 !important;
+    outline: -webkit-focus-ring-color auto 5px !important;
+  }
+  a {
+    text-decoration: none;
+  }
+
+  :root {
+    --b2-font-family: "Inter-Regular", Helvetica;
+    --b2-font-size: 14px;
+    --b2-font-style: normal;
+    --b2-font-weight: 400;
+    --b2-letter-spacing: 0.25px;
+    --b2-line-height: normal;
+    --base-lightneutral-variant10: rgba(23, 26, 31, 1);
+    --base-lightneutral10: rgba(25, 26, 28, 1);
+    --base-lightneutral70: rgba(160, 161, 164, 1);
+    --base-lightneutral80: rgba(191, 191, 194, 1);
+    --base-lightneutral90: rgba(222, 222, 225, 1);
+    --base-lightneutral98: rgba(248, 248, 251, 1);
+    --base-lightprimary50: rgba(10, 114, 177, 1);
+    --base-lightprimary60: rgba(46, 141, 210, 1);
+    --base-lightprimary95: rgba(228, 240, 254, 1);
+    --base-lightprimary98: rgba(246, 248, 255, 1);
+    --body-large-font-family: "Roboto-Regular", Helvetica;
+    --body-large-font-size: 16px;
+    --body-large-font-style: normal;
+    --body-large-font-weight: 400;
+    --body-large-letter-spacing: 0.5px;
+    --body-large-line-height: 24px;
+    --body-medium-font-family: "Roboto-Regular", Helvetica;
+    --body-medium-font-size: 14px;
+    --body-medium-font-style: normal;
+    --body-medium-font-weight: 400;
+    --body-medium-letter-spacing: 0.25px;
+    --body-medium-line-height: 20px;
+    --body-small-font-family: "Roboto-Regular", Helvetica;
+    --body-small-font-size: 12px;
+    --body-small-font-style: normal;
+    --body-small-font-weight: 400;
+    --body-small-letter-spacing: 0px;
+    --body-small-line-height: 16px;
+    --bold-12px-font-family: "Montserrat-Bold", Helvetica;
+    --bold-12px-font-size: 12px;
+    --bold-12px-font-style: normal;
+    --bold-12px-font-weight: 700;
+    --bold-12px-letter-spacing: 0px;
+    --bold-12px-line-height: 16px;
+    --button-hover: 0px 1px 3px 1px rgba(0, 0, 0, 0.15), 0px 1px 2px 0px rgba(0, 0, 0, 0.3);
+    --danger-400: rgba(239, 84, 70, 1);
+    --dark-grey: rgba(51, 51, 51, 1);
+    --grayscale-100: rgba(255, 255, 255, 1);
+    --grayscale-200: rgba(243, 243, 243, 1);
+    --grayscale-300: rgba(191, 191, 194, 1);
+    --grayscale-500: rgba(121, 121, 121, 1);
+    --grayscale-700: rgba(51, 52, 54, 1);
+    --grayscale-900: rgba(25, 26, 28, 1);
+    --label-large-font-family: "Roboto-Medium", Helvetica;
+    --label-large-font-size: 14px;
+    --label-large-font-style: normal;
+    --label-large-font-weight: 500;
+    --label-large-letter-spacing: 0.10000000149011612px;
+    --label-large-line-height: 20px;
+    --light-grey: rgba(217, 217, 217, 1);
+    --m3-elevation-dark-3: 0px 1px 3px 0px rgba(0, 0, 0, 0.3), 0px 4px 8px 3px rgba(0, 0, 0, 0.15);
+    --m3-elevation-light-1: 0px 1px 3px 1px rgba(0, 0, 0, 0.15), 0px 1px 2px 0px rgba(0, 0, 0, 0.3);
+    --m3-elevation-light-2: 0px 2px 6px 2px rgba(0, 0, 0, 0.15), 0px 1px 2px 0px rgba(0, 0, 0, 0.3);
+    --m3sysdarkinverse-on-surface: rgba(50, 47, 53, 1);
+    --primary-400: rgba(57, 129, 223, 1);
+    --primary-500: rgba(2, 81, 202, 1);
+    --primary-600: rgba(1, 41, 90, 1);
+    --semi-bold-20px-font-family: "Montserrat-SemiBold", Helvetica;
+    --semi-bold-20px-font-size: 20px;
+    --semi-bold-20px-font-style: normal;
+    --semi-bold-20px-font-weight: 600;
+    --semi-bold-20px-letter-spacing: 0px;
+    --semi-bold-20px-line-height: 32px;
+    --success-400: rgba(158, 197, 57, 1);
+    --systemlighterror: rgba(176, 27, 29, 1);
+    --systemlighton-primary: rgba(255, 255, 255, 1);
+    --systemlighton-secondary-container: rgba(15, 27, 37, 1);
+    --systemlighton-secondary-fixed: rgba(15, 27, 37, 1);
+    --systemlighton-surface: rgba(25, 26, 28, 1);
+    --systemlighton-surface-variant: rgba(58, 62, 68, 1);
+    --systemlightoutline: rgba(103, 109, 114, 1);
+    --systemlightprimary: rgba(8, 88, 137, 1);
+    --systemlightsecondary-container: rgba(206, 224, 243, 1);
+    --systemlightsurface: rgba(248, 248, 251, 1);
+    --systemlightsurface-container-low: rgba(238, 238, 242, 1);
+    --title-medium-font-family: "Roboto-Medium", Helvetica;
+    --title-medium-font-size: 16px;
+    --title-medium-font-style: normal;
+    --title-medium-font-weight: 500;
+    --title-medium-letter-spacing: 0.15000000596046448px;
+    --title-medium-line-height: 24px;
+    --warning-300: rgba(244, 197, 97, 1);
+  }
+</style>

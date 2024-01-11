@@ -1,0 +1,107 @@
+.carousel-indicator {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 6px;
+  position: relative;
+}
+
+.carousel-indicator .ellipse {
+  position: relative;
+}
+
+.carousel-indicator .ellipse-2 {
+  border: 2px solid;
+  border-color: #003669;
+  position: relative;
+}
+
+.carousel-indicator .ellipse-3 {
+  border: 2px solid;
+  border-color: #003669;
+  position: relative;
+}
+
+.carousel-indicator .ellipse-4 {
+  border: 2px solid;
+  border-color: #003669;
+  position: relative;
+}
+
+.carousel-indicator .ellipse-5 {
+  border: 2px solid;
+  border-color: #003669;
+  position: relative;
+}
+
+.carousel-indicator .two {
+  border: 2px solid;
+  border-color: #003669;
+}
+
+.carousel-indicator .one {
+  background-color: #003669;
+}
+
+.carousel-indicator .twelve {
+  border-radius: 6px;
+  height: 12px;
+  width: 12px;
+}
+
+.carousel-indicator .sixteen {
+  border-radius: 8px;
+  height: 16px;
+  width: 16px;
+}
+
+.carousel-indicator .position-two {
+  background-color: #003669;
+}
+
+.carousel-indicator .size-twelve {
+  border-radius: 6px;
+  height: 12px;
+  width: 12px;
+}
+
+.carousel-indicator .size-sixteen {
+  border-radius: 8px;
+  height: 16px;
+  width: 16px;
+}
+
+.carousel-indicator .size-0-twelve {
+  border-radius: 6px;
+  height: 12px;
+  width: 12px;
+}
+
+.carousel-indicator .size-0-sixteen {
+  border-radius: 8px;
+  height: 16px;
+  width: 16px;
+}
+
+.carousel-indicator .size-1-twelve {
+  border-radius: 6px;
+  height: 12px;
+  width: 12px;
+}
+
+.carousel-indicator .size-1-sixteen {
+  border-radius: 8px;
+  height: 16px;
+  width: 16px;
+}
+
+.carousel-indicator .size-2-twelve {
+  border-radius: 6px;
+  height: 12px;
+  width: 12px;
+}
+
+.carousel-indicator .size-2-sixteen {
+  border-radius: 8px;
+  height: 16px;
+  width: 16px;
+}

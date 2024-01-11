@@ -1,0 +1,509 @@
+.CSIR-button {
+  align-items: center;
+  display: inline-flex;
+  height: 48px;
+  justify-content: center;
+  position: relative;
+}
+
+.CSIR-button .state-layer {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.CSIR-button .text-wrapper {
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.1px;
+  line-height: 20px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.CSIR-button .div {
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.1px;
+  line-height: 20px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.CSIR-button .icon {
+  height: 18px !important;
+  position: relative !important;
+  width: 18px !important;
+}
+
+.CSIR-button .label-text-2 {
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.1px;
+  line-height: 20px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.CSIR-button .text-wrapper-2 {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: -0.5px;
+  margin-top: -2.5px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.CSIR-button .arrow-back-black {
+  height: 24px;
+  margin-bottom: -4px;
+  margin-top: -4px;
+  position: relative;
+  width: 24px;
+}
+
+.CSIR-button.book-a-visit {
+  border-radius: 88px;
+  gap: 16px;
+  padding: 16px;
+}
+
+.CSIR-button.text {
+  border-radius: 8px;
+  flex-direction: column;
+  gap: 8px;
+  overflow: hidden;
+}
+
+.CSIR-button.filled {
+  border-radius: 8px;
+  flex-direction: column;
+  gap: 8px;
+  overflow: hidden;
+}
+
+.CSIR-button.filled-alternative {
+  border-radius: 8px;
+  flex-direction: column;
+  gap: 8px;
+  overflow: hidden;
+}
+
+.CSIR-button.outlined {
+  border: 1px solid;
+  border-radius: 8px;
+  flex-direction: column;
+  gap: 8px;
+  overflow: hidden;
+}
+
+.CSIR-button.focused.filled {
+  background-color: #ffffff;
+}
+
+.CSIR-button.enabled.filled {
+  background-color: #003669;
+}
+
+.CSIR-button.enabled.filled-alternative {
+  background-color: #ffffff;
+}
+
+.CSIR-button.enabled.book-a-visit {
+  background-color: #003669;
+}
+
+.CSIR-button.outlined.pressed {
+  border-color: #012e5e;
+}
+
+.CSIR-button.hovered.filled {
+  background-color: #ffffff;
+}
+
+.CSIR-button.outlined.focused {
+  border-color: #012e5e;
+}
+
+.CSIR-button.outlined.enabled {
+  border-color: #012e5e;
+}
+
+.CSIR-button.focused.book-a-visit {
+  background-color: #00366980;
+}
+
+.CSIR-button.outlined.disabled {
+  border-color: var(--grayscale-300);
+}
+
+.CSIR-button.pressed.filled {
+  background-color: #ffffff33;
+}
+
+.CSIR-button.outlined.hovered {
+  border-color: #012e5e;
+}
+
+.CSIR-button.pressed.book-a-visit {
+  background-color: #00366980;
+}
+
+.CSIR-button.book-a-visit.hovered {
+  background-color: #003669b2;
+  box-shadow: var(--button-hover);
+}
+
+.CSIR-button.show-icon-true.hovered.filled-alternative {
+  box-shadow: var(--button-hover);
+}
+
+.CSIR-button.show-icon-false.hovered.filled-alternative {
+  box-shadow: var(--m3-elevation-light-1);
+}
+
+.CSIR-button.show-icon-false.hovered.filled {
+  box-shadow: var(--m3-elevation-light-1);
+}
+
+.CSIR-button.show-icon-true.hovered.filled {
+  box-shadow: var(--button-hover);
+}
+
+.CSIR-button.book-a-visit .state-layer {
+  padding: 10px 24px 10px 16px;
+}
+
+.CSIR-button.text .state-layer {
+  justify-content: center;
+}
+
+.CSIR-button.filled .state-layer {
+  justify-content: center;
+}
+
+.CSIR-button.filled-alternative .state-layer {
+  justify-content: center;
+}
+
+.CSIR-button.show-icon-true.filled .state-layer {
+  padding: 10px 24px 10px 16px;
+}
+
+.CSIR-button.pressed.filled-alternative .state-layer {
+  background-color: #ffffff33;
+}
+
+.CSIR-button.focused.filled .state-layer {
+  background-color: #00366980;
+}
+
+.CSIR-button.show-icon-false.filled .state-layer {
+  padding: 10px 24px;
+}
+
+.CSIR-button.outlined.pressed .state-layer {
+  background-color: #00366929;
+  justify-content: center;
+}
+
+.CSIR-button.hovered.filled .state-layer {
+  background-color: #003669b2;
+}
+
+.CSIR-button.focused.filled-alternative .state-layer {
+  background-color: #ffffff80;
+}
+
+.CSIR-button.outlined.focused .state-layer {
+  background-color: #00366929;
+  justify-content: center;
+}
+
+.CSIR-button.outlined.enabled .state-layer {
+  justify-content: center;
+}
+
+.CSIR-button.show-icon-true.filled-alternative .state-layer {
+  padding: 10px 24px 10px 16px;
+}
+
+.CSIR-button.show-icon-false.outlined .state-layer {
+  justify-content: center;
+  padding: 10px 24px;
+}
+
+.CSIR-button.outlined.show-icon-true .state-layer {
+  padding: 10px 24px 10px 16px;
+}
+
+.CSIR-button.focused.text .state-layer {
+  background-color: #00366929;
+}
+
+.CSIR-button.hovered.filled-alternative .state-layer {
+  background-color: #ffffffb2;
+}
+
+.CSIR-button.pressed.filled .state-layer {
+  background-color: #00366980;
+}
+
+.CSIR-button.outlined.hovered .state-layer {
+  background-color: #00366914;
+  justify-content: center;
+}
+
+.CSIR-button.show-icon-true.text .state-layer {
+  padding: 10px 16px 10px 12px;
+}
+
+.CSIR-button.show-icon-false.filled-alternative .state-layer {
+  padding: 10px 24px;
+}
+
+.CSIR-button.text.hovered .state-layer {
+  background-color: #00366914;
+}
+
+.CSIR-button.disabled.filled .state-layer {
+  background-color: #bfbfc280;
+}
+
+.CSIR-button.pressed.text .state-layer {
+  background-color: #0036691f;
+}
+
+.CSIR-button.show-icon-false.text .state-layer {
+  padding: 10px 12px;
+}
+
+.CSIR-button.show-icon-true.hovered.filled-alternative .state-layer {
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.CSIR-button.focused.filled.show-icon-true .state-layer {
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.CSIR-button.show-icon-true.hovered.filled .state-layer {
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.CSIR-button.focused.filled-alternative.show-icon-true .state-layer {
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.CSIR-button.hovered .text-wrapper {
+  color: #012e5e;
+}
+
+.CSIR-button.disabled .text-wrapper {
+  color: var(--grayscale-900);
+  opacity: 0.38;
+}
+
+.CSIR-button.pressed .text-wrapper {
+  color: #012e5e;
+}
+
+.CSIR-button.enabled .text-wrapper {
+  color: #012e5e;
+}
+
+.CSIR-button.focused .text-wrapper {
+  color: #012e5e;
+}
+
+.CSIR-button.disabled .div {
+  color: var(--grayscale-900);
+  opacity: 0.38;
+}
+
+.CSIR-button.enabled.text .div {
+  color: #012e5e;
+}
+
+.CSIR-button.pressed.filled-alternative .div {
+  color: #003669;
+}
+
+.CSIR-button.focused.filled .div {
+  color: #ffffff;
+}
+
+.CSIR-button.enabled.filled .div {
+  color: #ffffff;
+}
+
+.CSIR-button.enabled.filled-alternative .div {
+  color: #003669;
+}
+
+.CSIR-button.enabled.book-a-visit .div {
+  color: #012e5e;
+}
+
+.CSIR-button.outlined.pressed .div {
+  color: #012e5e;
+}
+
+.CSIR-button.hovered.filled .div {
+  color: #ffffff;
+}
+
+.CSIR-button.focused.filled-alternative .div {
+  color: #003669;
+}
+
+.CSIR-button.outlined.focused .div {
+  color: #012e5e;
+}
+
+.CSIR-button.outlined.enabled .div {
+  color: #012e5e;
+}
+
+.CSIR-button.focused.book-a-visit .div {
+  color: #012e5e;
+}
+
+.CSIR-button.focused.text .div {
+  color: #012e5e;
+}
+
+.CSIR-button.hovered.filled-alternative .div {
+  color: #003669;
+}
+
+.CSIR-button.pressed.filled .div {
+  color: #ffffff;
+}
+
+.CSIR-button.outlined.hovered .div {
+  color: #003669;
+}
+
+.CSIR-button.pressed.book-a-visit .div {
+  color: #012e5e;
+}
+
+.CSIR-button.book-a-visit.hovered .div {
+  color: #012e5e;
+}
+
+.CSIR-button.text.hovered .div {
+  color: #012e5e;
+}
+
+.CSIR-button.pressed.text .div {
+  color: #012e5e;
+}
+
+.CSIR-button.disabled .label-text-2 {
+  color: var(--grayscale-900);
+  opacity: 0.38;
+}
+
+.CSIR-button.enabled.text .label-text-2 {
+  color: #ffffff;
+}
+
+.CSIR-button.pressed.filled-alternative .label-text-2 {
+  color: #003669;
+}
+
+.CSIR-button.focused.filled .label-text-2 {
+  color: #ffffff;
+}
+
+.CSIR-button.enabled.filled .label-text-2 {
+  color: #ffffff;
+}
+
+.CSIR-button.enabled.filled-alternative .label-text-2 {
+  color: #003669;
+}
+
+.CSIR-button.enabled.book-a-visit .label-text-2 {
+  color: #ffffff;
+}
+
+.CSIR-button.outlined.pressed .label-text-2 {
+  color: #012e5e;
+}
+
+.CSIR-button.hovered.filled .label-text-2 {
+  color: #ffffff;
+}
+
+.CSIR-button.focused.filled-alternative .label-text-2 {
+  color: #003669;
+}
+
+.CSIR-button.outlined.focused .label-text-2 {
+  color: #012e5e;
+}
+
+.CSIR-button.outlined.enabled .label-text-2 {
+  color: #012e5e;
+}
+
+.CSIR-button.focused.book-a-visit .label-text-2 {
+  color: #ffffff;
+}
+
+.CSIR-button.focused.text .label-text-2 {
+  color: #ffffff;
+}
+
+.CSIR-button.hovered.filled-alternative .label-text-2 {
+  color: #003669;
+}
+
+.CSIR-button.pressed.filled .label-text-2 {
+  color: #ffffff;
+}
+
+.CSIR-button.outlined.hovered .label-text-2 {
+  color: #003669;
+}
+
+.CSIR-button.pressed.book-a-visit .label-text-2 {
+  color: #ffffff;
+}
+
+.CSIR-button.book-a-visit.hovered .label-text-2 {
+  color: #ffffff;
+}
+
+.CSIR-button.text.hovered .label-text-2 {
+  color: #ffffff;
+}
+
+.CSIR-button.pressed.text .label-text-2 {
+  color: #ffffff;
+}
